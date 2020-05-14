@@ -6,7 +6,8 @@
   margin-right: 0;
 }
 
-.header--logo img {
+.header--logo img,
+.footer--logo img {
   height: 2rem;
   width: auto;
   margin: 0 auto;

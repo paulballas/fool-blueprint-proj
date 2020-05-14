@@ -7,7 +7,8 @@ button.btn {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
   border: 2px solid transparent;
   text-align: center;
-  width: 100%
+  width: 100%;
+  transition: all 300ms;
 }
 @media screen and (min-width: 752px) {
   button.btn {
@@ -27,16 +28,26 @@ button.btn:hover {
   color: var(--white);
 }
 
+.btn.btn--primary:hover {
+  background: var(--pink-2);
+}
+
 .btn.btn--secondary {
   background: var(--blue-1);
   color: var(--white);
 }
 
-.btn.btn--primary:hover {
-  background: var(--pink-2);
+.btn.btn--secondary:hover {
+  background: var(--blue-2);
+  color: var(--white);
 }
+
 
 .btn.btn--icon svg {
     vertical-align: sub;
     margin-left: 1rem;
+}
+
+.btn.btn--auto {
+  width: auto;
 }
