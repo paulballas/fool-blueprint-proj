@@ -1,0 +1,51 @@
+.header--left a {
+  margin-right: 1rem;
+}
+
+.header--left a:last-child {
+  margin-right: 0;
+}
+
+.header--logo img {
+  height: 2rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+.header--right .search-input {
+  position: relative;
+}
+
+.header--right .search-input img {
+  width: 1rem;
+  height: auto;
+  position: absolute;
+  left: 0.75rem;
+  top: 0.75rem;
+  z-index: 10;
+}
+
+.header--right .search-input input[type='text'] {
+  display: block;
+  font-family: var(--font-family);
+  padding: 0.5rem;
+  text-indent: 2rem;
+  border-radius: 0.5rem;
+  background: var(--input-bg);
+  line-height: 1rem;
+  height: 2.5rem;
+  font-size: 1rem  ;
+  width: 100%  ;
+  position: relative;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.header--right .search-input input[type='text']::placeholder {
+  color: var(--input-placeholder);
+}
+
+.header--right .search-input input[type='text']:focus,
+.header--right .search-input input[type='text']:active {
+  border: 1px solid var(--border-primary-color);
+}

@@ -1,0 +1,37 @@
+.other-picks .other--container {
+  border: 1px solid var(--border-primary-color);
+  border-radius: 0.25rem;
+  padding: 1rem;
+  background: var(--container-bg);
+  min-height: 10rem;
+}
+
+.other-picks .other--container p {
+  margin-bottom: 0.5rem;
+}
+
+.other-picks .other--container a{
+  padding-top: 0.5rem;
+}
+
+.other-picks .other--container .co-logo {
+  height: 2rem;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.other-picks .other--container a:hover {
+  color: var(--pink-4);
+}
+
+.other-picks .other--container a:hover svg path {
+  fill: var(--pink-4);
+}
+
+.other-picks .other--container .star-rating {
+  height: 1.5rem;
+  width: auto;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  padding-top: 0.5rem;
+}

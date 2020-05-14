@@ -1,0 +1,28 @@
+:root {
+  --font-family: 'Averta', sans-serif;
+
+  --primary-text-color: #2A2132;
+  --primary-link-color: #112E60;
+
+  --border-primary-color: #C2C5C4;
+  --input-placeholder: #C2C5C4;
+  --input-bg: #FAFAFA;
+  --container-bg: #FAFAFA;
+
+  --blue-1: #3C618F;
+  --blue-2: #2C4D7C;
+  --blue-3: #1F3E6E;
+  --blue-4: #112E60;
+
+  --pink-1: #FF4F93;
+  --pink-2: #FF1D6D;
+  --pink-3: #E7004D;
+  --pink-4: #C9003E;
+
+  --plum-1: #7D7DD5;
+  --plum-2: #5757B4;
+  --plum-3: #3F3F98;
+  --plum-4: #2E2E84;
+
+  --white: #FFF;
+}

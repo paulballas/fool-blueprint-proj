@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Averta";
+  src: url("../typography/Averta-Black.otf") format("opentype"), url("../typography/Averta-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../typography/Averta-Bold.otf") format("opentype"), url("../typography/Averta-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Averta";
+  src: url("../typography/Averta-Regular.otf") format("opentype"), url("../typography/Averta-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, a {
+  font-family: var(--font-family);
+  margin-top: 0;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+  font-weight: 900;
+  color: var(--primary-text-color);
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+}
+
+h6 {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--primary-text-color);
+  text-transform: uppercase;
+}
+
+p, a, li {
+  font-weight: 400;
+  color: var(--primary-text-color);
+}
+
+p.lg {
+  font-size: 1.25rem;
+}
+
+a {
+  font-weight: 400;
+  color: var(--primary-link-color);
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+.featured {
+  background: var(--blue-2);
+}
+
+.featured h6 {
+  color: var(--pink-1);
+}
+
+.featured h2 {
+  color: var(--white);
+}
+
+.featured .featured-hero {
+  border: 1px solid #E8EBEA;
+  border-radius: 0.25rem;
+}
+
+.featured .featured--logo {
+  max-height: 3rem;
+  width: auto;
+  margin-right: 1rem;
+}
+
+.featured .featured--score {
+  height: 1.5rem;
+  width: auto;
+  margin-left: 2rem;
+}
