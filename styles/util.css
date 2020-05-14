@@ -3,6 +3,44 @@ img {
   width: 100%;
 }
 
+a.decorate {
+  text-decoration: underline;
+}
+
+.card {
+  padding: 1rem;
+  background: var(--container-bg);
+  border: 1px solid var(--border-primary-color);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.border-left {
+  border-left: 0.25rem solid var(--blue-1);
+  padding-left: 1rem;
+}
+
+.blue-bg {
+  background: var(--blue-2);
+}
+
+.blue-bg * {
+  color: var(--white);
+}
+
+.blue-bg a:hover {
+  color: var(--white);
+  text-decoration: underline;
+}
+
+a.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }

@@ -1,11 +1,13 @@
+a.btn,
 button.btn {
   padding: 0.75rem 1rem;
   font-size: 1rem;
   font-weight: 700;
   display: block;
-  width: 100%;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
   border: 2px solid transparent;
+  text-align: center;
+  width: 100%
 }
 @media screen and (min-width: 752px) {
   button.btn {
@@ -14,6 +16,7 @@ button.btn {
   }
 }
 
+a.btn:hover,
 button.btn:hover {
   cursor: pointer;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
@@ -24,11 +27,16 @@ button.btn:hover {
   color: var(--white);
 }
 
+.btn.btn--secondary {
+  background: var(--blue-1);
+  color: var(--white);
+}
+
 .btn.btn--primary:hover {
   background: var(--pink-2);
 }
 
 .btn.btn--icon svg {
-    vertical-align: middle;
+    vertical-align: sub;
     margin-left: 1rem;
 }
